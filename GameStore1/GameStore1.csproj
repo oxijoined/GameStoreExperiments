@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="favicon.ico" />
+    <None Remove="photo_2021-09-25_21-39-03.jpg" />
+    <None Remove="The-Witcher-3-Wild-Hunt-Complete-Edition.png" />
+    <None Remove="WitcherCon___1st_Stream_1_40_55_screenshot.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+    <Resource Include="photo_2021-09-25_21-39-03.jpg" />
+    <Resource Include="The-Witcher-3-Wild-Hunt-Complete-Edition.png" />
+    <Resource Include="WitcherCon___1st_Stream_1_40_55_screenshot.jpg" />
+  </ItemGroup>
+
+</Project>
